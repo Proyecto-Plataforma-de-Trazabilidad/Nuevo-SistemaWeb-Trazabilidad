@@ -1,0 +1,64 @@
+.titulo{
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+    width: 94.5%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.form-Principal-encabezado{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.form-Principal-encabezado-numero{
+    flex-grow: 4;
+}
+
+.divider{
+    margin: 2.25rem 0 1.25rem 0;
+}
+
+.divider-titulo{
+    margin: auto 0 1.25rem 1.5rem;
+}
+
+.button-aceptar{
+    margin-top: 2rem;
+}
+
+.form-Detalle-table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.25rem 0 3rem 0;
+    padding: 1.5rem;
+    
+}
+
+.form-Detalle-mensaje{
+    align-self: flex-start;
+
+}
+
+.button-registrar{
+    margin-top: 2rem;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
+
+select:invalid {
+    border-color: red;
+}
+
+select:valid {
+    border-color: green;
+}
+

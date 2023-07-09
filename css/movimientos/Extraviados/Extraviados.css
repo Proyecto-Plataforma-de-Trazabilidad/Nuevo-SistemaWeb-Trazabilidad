@@ -1,0 +1,38 @@
+.titulo{
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+    width: 94.5%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.form-Principal-encabezado{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.form-Principal-encabezado-numero{
+    flex-grow: 4;
+}
+
+.button-registrar{
+    margin-top: 4.7rem;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
+
+select:invalid {
+    border-color: red;
+}
+
+select:valid {
+    border-color: green;
+}
+

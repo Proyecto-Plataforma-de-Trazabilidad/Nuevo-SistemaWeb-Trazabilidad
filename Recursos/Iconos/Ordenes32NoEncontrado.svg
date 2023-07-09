@@ -1,0 +1,42 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 25.65 27.29">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #5a6e5d;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        stroke-width: 2.75px;
+      }
+
+      .cls-4 {
+        stroke-width: 2px;
+      }
+    </style>
+    <clipPath id="clip-path" transform="translate(-3.6 -2.63)">
+      <rect class="cls-1" width="32" height="32"/>
+    </clipPath>
+  </defs>
+  <g class="cls-2">
+    <g>
+      <path class="cls-3" d="M12,6.67H9.33A2.66,2.66,0,0,0,6.67,9.33v16A2.66,2.66,0,0,0,9.33,28H22.67a2.66,2.66,0,0,0,2.66-2.67v-16a2.66,2.66,0,0,0-2.66-2.66H20" transform="translate(-3.6 -2.63)"/>
+      <path class="cls-3" d="M17.33,4H14.67a2.67,2.67,0,1,0,0,5.33h2.66a2.67,2.67,0,1,0,0-5.33Z" transform="translate(-3.6 -2.63)"/>
+      <path class="cls-3" d="M12,18.67h0" transform="translate(-3.6 -2.63)"/>
+      <path class="cls-3" d="M12,22.67h0" transform="translate(-3.6 -2.63)"/>
+    </g>
+  </g>
+  <path class="cls-4" d="M3.38,29.68" transform="translate(-3.6 -2.63)"/>
+  <line class="cls-4" x1="13.62" y1="15.95" x2="18.11" y2="20.44"/>
+  <line class="cls-4" x1="13.62" y1="20.44" x2="18.11" y2="15.95"/>
+  <line class="cls-4" x1="1" y1="26.29" x2="24.65" y2="2.64"/>
+</svg>

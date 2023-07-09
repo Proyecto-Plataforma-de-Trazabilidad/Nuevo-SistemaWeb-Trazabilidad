@@ -1,0 +1,24 @@
+
+.btn-ghost{
+    position: relative;
+    display: inline-block;
+    border: 2px solid #285430;
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #285430;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.2s, background 0.2s;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.btn-ghost:hover{
+    color: white;
+    background-color: #285430;
+    border: #285430;
+}
+
+.btn-ghost.round{
+    border-radius: 30px;
+}

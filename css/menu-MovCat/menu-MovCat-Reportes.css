@@ -1,0 +1,49 @@
+.titulo{
+    margin-bottom: 3rem;
+}
+
+.Menu{
+    width: 95%;
+}
+
+
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 15% ;
+    height: 180px ;
+    transition: all .2s ease-in-out;
+}
+
+.menu-item:hover{
+    background: #E2E2E2;
+    cursor: pointer;
+
+}
+
+
+.menu-item-imagen{
+    width: 90px;
+    height: 90px;
+}
+
+
+.menu-item-titulo{
+    text-decoration:none;
+    box-shadow: none;
+    text-align: center;
+    color: #285430 ;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.menu-item-titulo small{
+    font-size:small;
+}
+
+
+.accordion-body{
+    display: flex;
+}

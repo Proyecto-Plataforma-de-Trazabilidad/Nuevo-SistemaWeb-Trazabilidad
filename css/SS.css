@@ -1,0 +1,86 @@
+:root
+{
+    --paleta1: #483838;
+    --paleta2: #52672f;
+    --paleta3: #90B77D;
+    --paleta4: #D2D79F;
+}
+
+body
+{
+    
+    background: linear-gradient(to right, #2c95af, #52672f);
+}
+
+.btn-ghost{
+    position: relative;
+    display: inline-block;
+    border: 2px solid var(--paleta1);
+    padding: 3px 12px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 0.2s, background 0.2s;
+    margin-right: 40px;
+}
+
+.btn-ghost.round{
+    border-radius: 30px;
+}
+
+.btn-ghost.editar{
+    background: #5F6F94;
+    border-color: #5F6F94;
+    
+}
+
+.btn-ghost.editar:hover{
+    background-color: transparent;
+    color: #5F6F94;
+}
+
+.btn-ghost.guardar{
+    background: #90B77D;
+    border-color: #90B77D;
+}
+
+.btn-ghost.guardar:hover{
+    background-color: transparent;
+    color: #90B77D;
+}
+
+.btn-ghost.eliminar{
+    background: #cc3636;
+    border-color: #cc3636;
+}
+.btn-ghost.eliminar:hover{
+    background-color: transparent;
+    color: #cc3636;
+}
+
+.btn-ghost.editar:hover{
+    color: black;
+    background-color: transparent;
+    color: #5F6F94;
+}
+
+.btn-ghost.secundary{
+    background-color: transparent;
+    color: black;
+    transition: color 0.5s, background 0.5s;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.btn-ghost.btn-ghost.secundary:hover{
+    color: black;
+    background-color: yellow;
+    border-color: yellow;
+}
+
+p.invisible{
+    color: white;
+}
+
+

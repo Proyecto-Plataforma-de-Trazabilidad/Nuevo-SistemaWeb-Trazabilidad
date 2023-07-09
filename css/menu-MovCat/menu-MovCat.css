@@ -1,0 +1,43 @@
+.Menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 3%;
+}
+
+
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 33% ;
+    height: 330px ;
+    transition: all .2s ease-in-out;
+}
+
+.menu-item:hover{
+    background: #E2E2E2;
+    cursor: pointer;
+
+}
+
+
+.menu-item-imagen{
+    width: 150px;
+    height: 150px;
+}
+
+
+.menu-item-titulo{
+    text-decoration:none;
+    box-shadow: none;
+    text-align: center;
+    color: #285430 ;
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+.menu-item-titulo small{
+    font-size:small;
+}

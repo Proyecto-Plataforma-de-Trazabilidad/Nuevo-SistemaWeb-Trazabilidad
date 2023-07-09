@@ -1,0 +1,381 @@
+body{
+    background: #ffffff;
+    width: 195mm;   
+    height: 279.4mm;
+    border: solid ;
+}
+
+.container-encabezado-imagen{
+    text-align: center;
+    width: 270px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.logo{
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    margin-right: 45px;
+}
+
+.container-encabezado-recolector{
+    text-align: center;
+    width: 270px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.recolector-nombre{
+    text-align: center;
+    font-size: .85rem;
+    font-weight:bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recolector-domicilio{
+    text-align: center;
+    font-size: .60rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-identificacion{
+    clear: both;
+    margin-top: 10px;
+}
+
+.container-identificacion-fecha{
+    float: left;
+    margin-left: 15px;
+}
+
+.container-identificacion-numero{
+    float: right;
+    margin-right: 15px;
+}
+
+.identificacion-texto{
+    text-align: center;
+    font-size: .90rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.numRecibo{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #a91818;
+}
+
+/* datos productor */
+.container-productor{
+    border: solid;
+    border-color: darkgreen;
+    border-width: 3px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 25px;
+    padding-bottom: 5px;
+    border-end-end-radius: 10px;
+    border-start-end-radius: 10px;
+    padding-left: 10px;
+}
+
+.container-productor p{
+    font-size: .90rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-productor-nombre, .container-productor-lugar{
+    margin-right: 10px;
+}
+
+/* tabla */
+.container-entrega{
+    border: solid;
+    border-color: darkgreen;
+    border-width: 3px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 25px;
+    padding-bottom: 5px;
+    border-end-end-radius: 10px;
+    border-start-end-radius: 10px;
+    padding-left: 10px;
+}
+
+.entrega-tabla{
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+.tabla{
+    width: 650px;
+    text-align: center;
+    border: solid 1px #000000;
+    border-collapse: collapse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tabla thead{
+    background-color: darkgreen;
+    text-align: center;
+    color: #ffffff;
+    font-size: .85rem
+}
+
+
+
+
+
+
+
+/* 
+body {
+            background: #ffffff;
+            width: 195mm;
+            height: 279.4mm;
+            border: solid;
+        }
+
+        section {
+            display: flex;
+        }
+
+        .container-encabezado-imagen {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            width: 270px;
+            height: 160px;
+        }
+
+        .logo {
+            width: 140px;
+            height: 140px;
+            margin-right: 45px;
+        }
+
+        .container-encabezado-recolector {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            width: 270px;
+            height: 160px;
+        }
+
+        .recolector-nombre {
+            text-align: center;
+            font-size: .85rem;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .recolector-domicilio {
+            text-align: center;
+            font-size: .60rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .container-identificacion {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .container-identificacion-fecha {
+            margin-left: 1.75rem;
+            margin-top: .75rem;
+        }
+
+        .container-identificacion-numero {
+            margin-right: 1.75rem;
+            margin-top: .75rem;
+        }
+
+        .identificacion-texto {
+            text-align: center;
+            font-size: .90rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .numRecibo {
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #a91818;
+        }
+
+        .container-productor {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            gap: -10px;
+            border: solid;
+            border-color: darkgreen;
+            border-width: 3px;
+            margin-bottom: 10px;
+            margin-left: 15px;
+            margin-right: 25px;
+            padding-bottom: 5px;
+            border-end-end-radius: 10px;
+            border-start-end-radius: 10px;
+            padding-left: 10px;
+        }
+
+        .container-productor div {
+            height: 35px;
+        }
+
+        .container-productor p {
+            font-size: .90rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .titulo {
+            font-size: 1rem;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .container-productor-nombre,
+        .container-productor-lugar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-right: 10px;
+        }
+
+
+        .container-entrega {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            gap: -10px;
+            border: solid;
+            border-color: darkgreen;
+            border-width: 3px;
+            margin-bottom: 10px;
+            margin-left: 15px;
+            margin-right: 25px;
+            padding-bottom: 5px;
+            border-end-end-radius: 10px;
+            border-start-end-radius: 10px;
+            padding-left: 10px;
+        }
+
+        .entrega-tabla {
+            width: 650px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 10px;
+        }
+
+        .tabla {
+            width: 650px;
+            text-align: center;
+            border: solid 1px #000000;
+            border-collapse: collapse;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .tabla thead {
+            background-color: darkgreen;
+            text-align: center;
+            color: #ffffff;
+            font-size: .85rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-bottom: solid 3px #000000;
+        }
+
+        .tabla th,
+        td {
+            padding: 10px;
+            font-size: .75rem;
+        }
+
+        .tabla tr:nth-child(even) {
+            background-color: rgba(197, 197, 197, 0.705);
+        }
+
+
+        .container-declaracion {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            border: solid;
+            border-color: darkgreen;
+            border-width: 3px;
+            margin-bottom: 10px;
+            margin-left: 15px;
+            margin-right: 25px;
+            border-end-end-radius: 10px;
+            border-start-end-radius: 10px;
+            padding-left: 10px;
+        }
+
+        .declaracion-mensaje {
+            text-align: justify;
+            margin-right: 10px;
+            font-size: .75rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .declaracion-firmas {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-right: 10px;
+            font-size: .90rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+
+     
+        .container-responsables {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+            border: solid;
+            border-color: darkgreen;
+            border-width: 3px;
+            margin-bottom: 10px;
+            margin-left: 15px;
+            margin-right: 25px;
+            border-end-end-radius: 10px;
+            border-start-end-radius: 10px;
+            padding-left: 10px;
+
+        }
+
+        .responsables-titulo {
+            flex-grow: 1;
+            width: 100%;
+        }
+
+        .responsables-entrega,
+        .responsables-recepcion {
+            margin-top: 30px;
+            width: 49%;
+            margin-right: 1%;
+            font-size: .90rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+
+*/

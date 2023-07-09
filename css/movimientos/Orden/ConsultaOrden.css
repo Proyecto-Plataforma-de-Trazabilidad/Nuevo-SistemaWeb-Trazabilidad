@@ -1,0 +1,82 @@
+.titulo {
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+    width: 94.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filtro {
+    margin-left: 4rem;
+}
+
+.filtro-form {
+    display: flex;
+}
+
+.button-buscar {
+    padding-top: 1.99rem;
+}
+
+
+table td{
+    text-align: center;
+}
+
+.Orden-tabla {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-Orden-table {
+    width: 95%;
+}
+
+td.iconos {
+    text-align: center;
+}
+
+.detalle-btn {
+    background-color: #ffffff00;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.archivo-btn {
+    background-color: #ffffff00;
+    border: none;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    cursor: pointer;
+}
+
+.divider {
+    margin: 2.25rem 0 1.25rem 0;
+}
+
+.detalle-tabla {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-Detalle-table {
+    width: 95%;
+}
