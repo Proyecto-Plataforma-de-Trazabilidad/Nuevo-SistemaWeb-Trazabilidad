@@ -163,7 +163,10 @@
                     <br>
 
                     <div class="d-grid">
-                        <button type="submit" class="btn btn-primary" onclick="" name="Registrar">Iniciar Sesión</button>
+                        <button type="submit" class="btn btn-primary" onclick="" name="Validar">Iniciar Sesión</button>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary" onclick="" name="Registrar">Registrarse</button>
                     </div>
 
                     <br><br>
